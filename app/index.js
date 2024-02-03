@@ -1,4 +1,6 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, ScrollView, SafeAreaView } from "react-native";
+import { useState } from "react";
+import { Stack, useRouter } from "expo-router";
 
 export default function Page() {
   return (
