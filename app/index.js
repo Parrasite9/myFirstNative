@@ -18,7 +18,7 @@ const Home = () => {
             <ScreenHeaderBtn iconUrl={icons.menu} dimensions="60%" />
           ),
           headerRight: () => (
-            <ScreenHeaderBtn iconUrl={icons.menu} dimensions="100%" />
+            <ScreenHeaderBtn iconUrl={images.profile} dimensions="100%" />
           ),
           headerTitle: ""
         }}
@@ -31,7 +31,7 @@ const Home = () => {
             padding: SIZES.medium
           }}>
 
-            
+
             <Welcome />
             <Popularjobs />
             <Nearbyjobs />
